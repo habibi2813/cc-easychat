@@ -9,7 +9,7 @@ local aButton = main:addButton()
 
 local ServerSize = main:addInput()
         :setInputType("number")
-        :setPosition(8, 4)
+        :setPosition(4, 10)
         :setSize(16, 4)
 
 
