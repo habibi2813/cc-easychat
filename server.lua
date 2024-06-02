@@ -11,10 +11,5 @@ local aButton = main:addButton()
         :setPosition(4, 4)
         :setSize(16, 4)
 
-local ServerSize = main:addInput()
-        :setInputType("number")
-        :setPosition(4, 10)
-        :setSize(16, 4)
-
 basalt.autoUpdate()
 
