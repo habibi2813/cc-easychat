@@ -8,7 +8,7 @@ local modem = peripheral.find("modem") or error("No modem attached, please attac
 local HostButton = main:addButton()
         :setText("Host chat")
         :setPosition(4, 4)
-        :setSize(16, 4)
+        :setSize(8, 8)
 
 
 local chat_id = 1
