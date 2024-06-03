@@ -3,7 +3,7 @@ local basalt = require("basalt")
 local main = basalt.createFrame()
 local mainFrame = basalt.createFrame()
 
-local modem = peripheral.find("modem") or error("No modem attached", 0)
+local modem = peripheral.find("modem") or error("No modem attached, please attach a modem (Preferably Ender modem).", 0)
 
 local HostButton = main:addButton()
         :setText("Host chat")
