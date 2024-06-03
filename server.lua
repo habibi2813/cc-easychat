@@ -8,4 +8,6 @@ local aButton = main:addButton()
         :setPosition(4, 4)
         :setSize(16, 4)
 
+modem.isWireless()
+
 basalt.autoUpdate()
