@@ -8,8 +8,6 @@ local modem = peripheral.find("modem") or error("No modem attached, please attac
 local HostButton = main:addButton()
         :setText("Host chat")
         :setPosition(4, 4)
-        :setSize(10, 4)
-
 
 local chat_id = 1
 
@@ -18,7 +16,6 @@ chat_id_field:setInputType("number")
 chat_id_field:setInputLimit(4)
 chat_id_field:setDefaultText("Channel ID")
 chat_id_field:setPosition(4, 12)
-chat_id_field:setSize(4, 4)
 
 HostButton:onClick(function(self,event,button,x,y)
   if(event=="mouse_click")and(button==1)then
