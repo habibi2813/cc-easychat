@@ -9,8 +9,3 @@ local aButton = main:addButton()
         :setSize(16, 4)
 
 basalt.autoUpdate()
-
-
-
-
-
