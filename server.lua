@@ -18,5 +18,4 @@ HostButton:onClick(function(self,event,button,x,y)
   end
 end)
 
-
 basalt.autoUpdate()
