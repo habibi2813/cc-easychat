@@ -10,4 +10,6 @@ local aButton = main:addButton()
 
 local modem type = modem.isWireless()
 
+local modem = peripheral.wrap("right")
+
 basalt.autoUpdate()
