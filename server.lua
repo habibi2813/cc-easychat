@@ -18,7 +18,7 @@ chat_id_field:setInputType("number")
 chat_id_field:setInputLimit(4)
 chat_id_field:setDefaultText("Channel ID")
 chat_id_field:setPosition(4, 12)
-chat_id_field:setSize(10, 4)
+chat_id_field:setSize(4, 4)
 
 HostButton:onClick(function(self,event,button,x,y)
   if(event=="mouse_click")and(button==1)then
