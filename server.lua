@@ -14,9 +14,9 @@ local HostButton = main:addButton()
 local chat_id = 1
 
 local chat_id_field = main:addInput()
-    
-
-
+chat_id_field:setInputType("number")
+chat_id_field:setInputLimit(4)
+chat_id_field:setDefaultText("Channel ID")
 
 HostButton:onClick(function(self,event,button,x,y)
   if(event=="mouse_click")and(button==1)then
