@@ -20,9 +20,9 @@ chat_id_field:setPosition(4, 8)
 
 local password_field = main:addInput()
 password_field:setInputType("password")
-chat_id_field:setInputLimit(12)
-chat_id_field:setPosition(4, 12)
-chat_id_field:setDefaultText("Password")
+password_field:setInputLimit(12)
+password_field:setPosition(4, 12)
+password_field:setDefaultText("Password")
 
 
 HostButton:onClick(function(self,event,button,x,y)
