@@ -19,6 +19,7 @@ chat_id_field:setInputLimit(4)
 chat_id_field:setDefaultText("Channel ID")
 chat_id_field:setPosition(4, 8)
 
+-- Password field
 
 local password_field = main:addInput()
 password_field:setInputType("password")
