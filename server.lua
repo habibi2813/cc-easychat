@@ -22,6 +22,8 @@ local password_field = main:addInput()
 password_field:setInputType("password")
 chat_id_field:setInputLimit(12)
 chat_id_field:setPosition(4, 12)
+chat_id_field:setDefaultText("Password")
+
 
 HostButton:onClick(function(self,event,button,x,y)
   if(event=="mouse_click")and(button==1)then
