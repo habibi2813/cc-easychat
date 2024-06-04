@@ -22,9 +22,6 @@ HostButton:onClick(function(self,event,button,x,y)
     local chatFrame = basalt.createFrame()
     chatFrame:setTitle("Chat")
     chatFrame:setSize(50,20)
-    chatFrame:setPosition(math.floor((main:getWidth()/2)-(chatFrame:getWidth()/2)),math.floor((main:getHeight()/2)-(chatFrame:getHeight()/2)))
-    chatFrame:setVisible(true)
-    chatFrame:bringToFront()
   end
 end)
 
