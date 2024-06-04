@@ -28,8 +28,8 @@ chat_id_field:setPosition(4, 8)
 local password_field = main:addInput()
 password_field:setInputType("password")
 password_field:setInputLimit(8)
-password_field:setPosition(4, 10)
 password_field:setDefaultText("Password")
+password_field:setPosition(4, 10)
 
 
 
