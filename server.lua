@@ -17,6 +17,8 @@ chat_id_field:setInputLimit(4)
 chat_id_field:setDefaultText("Channel ID")
 chat_id_field:setPosition(4, 8)
 
+local password_field = main:addInput()
+
 HostButton:onClick(function(self,event,button,x,y)
   if(event=="mouse_click")and(button==1)then
     local ServerFrame = basalt.createFrame()
