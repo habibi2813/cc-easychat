@@ -3,6 +3,8 @@ local basalt = require("basalt")
 local main = basalt.createFrame()
 local mainFrame = basalt.createFrame()
 
+-- Modem check
+
 local modem = peripheral.find("modem") or error("No modem attached, please attach a modem (Preferably Ender modem).", 0)
 
 -- HostButton
@@ -26,6 +28,10 @@ password_field:setInputType("password")
 password_field:setInputLimit(8)
 password_field:setPosition(4, 10)
 password_field:setDefaultText("Password")
+
+
+
+
 
 
 basalt.autoUpdate()
