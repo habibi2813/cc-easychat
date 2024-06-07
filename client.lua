@@ -25,3 +25,5 @@ password_field:setInputType("password")
 password_field:setInputLimit(8)
 password_field:setDefaultText("Password")
 password_field:setPosition(4, 10)
+
+basalt.autoUpdate()
