@@ -4,6 +4,7 @@ local basalt = require("basalt")
 
 local main = basalt.createFrame()
 local mainFrame = basalt.createFrame()
+local background = main:addPane():setSize(15, 8):setPosition(17 * 2, 2):setBackground(colors.green, "#", colors.orange)
 
 -- Modem check
 
