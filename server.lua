@@ -32,8 +32,9 @@ password_field:setInputLimit(8)
 password_field:setDefaultText("Password")
 password_field:setPosition(4, 10)
 
--- HostButton click function
 
+
+-- HostButton click function
 
 HostButton:onClick(function(self,event,button,x,y)
   if(event=="mouse_click")and(button==1)then
