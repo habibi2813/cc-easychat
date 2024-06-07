@@ -33,5 +33,13 @@ password_field:setDefaultText("Password")
 password_field:setPosition(4, 10)
 
 
+-- HostButton click function
+
+    JoinButton:onClick(function(self,event,button,x,y)
+        if(event=="mouse_click")and(button==1)then
+          modem.open(chat_id_field:getValue())
+        end
+      end)
+      
 
 basalt.autoUpdate()
