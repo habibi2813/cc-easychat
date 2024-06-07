@@ -6,6 +6,33 @@ local main = basalt.createFrame()
 local mainFrame = basalt.createFrame()
 
 -- Modem check
+<<<<<<< HEAD
+=======
+
+local modem = peripheral.find("modem") or error("No modem attached, please attach a modem (Preferably Ender modem).", 0)
+
+-- HostButton
+
+local HostButton = main:addButton()
+HostButton:setText("Host chat")
+HostButton:setPosition(4, 4)
+
+-- Chat ID Field
+
+local chat_id_field = main:addInput()
+chat_id_field:setInputType("number")
+chat_id_field:setInputLimit(4)
+chat_id_field:setDefaultText("Channel ID")
+chat_id_field:setPosition(4, 8)
+
+-- Password field
+
+local password_field = main:addInput()
+password_field:setInputType("password")
+password_field:setInputLimit(8)
+password_field:setDefaultText("Password")
+password_field:setPosition(4, 10)
+>>>>>>> 1d1ed6fe6665105bd343e9b78d30965383ae8c79
 
 local modem = peripheral.find("modem") or error("No modem attached, please attach a modem (Preferably Ender modem).", 0)
 
@@ -42,7 +69,10 @@ end)
 
 
 
+<<<<<<< HEAD
 
 
 
 basalt.autoUpdate()
+=======
+>>>>>>> 1d1ed6fe6665105bd343e9b78d30965383ae8c79
